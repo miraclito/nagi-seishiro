@@ -1,5 +1,5 @@
 server:
-  port: 8081
+  port: 8080
 springdoc:
   api-docs:
     enabled: true
@@ -11,7 +11,7 @@ spring:
     hibernate.ddl-auto: update
     generate-ddl: true
     show_sql: true
-  datasource:
+  dataSource:
     driverClassName: com.mysql.cj.jdbc.Driver
     url: jdbc:mysql://localhost:3306/ms-gestionareasylineas
     username: root
