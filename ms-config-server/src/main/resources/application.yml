@@ -2,6 +2,8 @@ server:
   port: 7070
 
 
+
+
 spring:
   application:
     name: config-server
@@ -11,7 +13,6 @@ spring:
         git:
           uri: https://github.com/miraclito/nagi-seishiro.git # ruta del repositorio git
           searchPaths: config-data
-          username: root
-          password: 123456
-          default-label: gateway-server
+          default-label: main
+
 
